@@ -1,8 +1,10 @@
 package kim.jerok.practice_spring_11.dto;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+@NoArgsConstructor
 @Getter
 @Setter
 public class UserRespDto {
